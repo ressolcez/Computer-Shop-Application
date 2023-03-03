@@ -6,8 +6,6 @@ store. In addition, a mechanism supporting e-mail messages has been implemented,
 ## The Technologies Used in this Project are:
 
 - React.JS
-- HTML
-- CSS
 - Redux
 - Material UI
 - Thymeleaf
