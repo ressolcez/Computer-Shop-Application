@@ -1,0 +1,120 @@
+.carousel__wrappper{
+    height:400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:5%;
+    margin-bottom: 2.5%;
+}
+
+.carousel__wrappper__image{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.button__carousel ::before {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    width:40px;
+    content: "\e825";
+}
+
+.carousel__wrapper__description{
+    height: 100%;
+    width: 50%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel__wrapper__title{
+    height: 50%;
+    font-weight: 800;
+    display: flex;
+    align-items: flex-end;
+    font-size: 70px;
+}
+
+.carousel__wrapper__othertext{
+    height: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.inside__img{
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .carousel__wrappper{
+        height:250px;
+    }
+
+    .inside__img{
+        height: 240px;
+        object-fit: contain;
+    }
+
+    .carousel__wrapper__title{
+        font-size: 25px;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .carousel__wrapper__desc{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel__wrappper{
+        height:200px;
+    }
+
+    .inside__img{
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .carousel__wrapper__title{
+        font-size: 20px;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .carousel__wrapper__desc{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .carousel__wrappper{
+        height:150px;
+    }
+
+    .inside__img{
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .carousel__wrapper__title{
+        font-size: 14px;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .carousel__wrapper__desc{
+        font-size: 9px;
+    }
+}

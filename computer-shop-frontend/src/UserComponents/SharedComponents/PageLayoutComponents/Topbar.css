@@ -1,0 +1,101 @@
+.topbar__wrapper {
+    display: flex;
+}
+  
+.topbar__leftBox {
+    flex: 20%;
+}
+
+.topbar__rightBox {
+    display: flex;
+    flex: 20%;
+    justify-content: flex-end;
+    gap: 5%;
+}
+
+    .topbar__rightBox__account{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topbar__rightBox__cart{
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .topbar__rightBox_spanItem{
+        display: flex;
+        cursor: pointer;
+    }
+
+
+.topbar__middleBox{
+    flex: 60%;
+    text-align: center;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper{
+    border: 0.5px solid rgb(196, 192, 192);
+}
+
+    @media only screen and (max-width: 700px) {
+
+        body{
+            padding: 0;
+            margin:3%;
+        }
+
+        .topbar__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+          
+        .topbar__leftBox {
+            order: 1;
+        }
+        
+        .topbar__middleBox{
+            margin-top: 2%;
+            order: 2;
+        }
+        
+            .topbar__search{
+                width:100%;
+            }
+        
+        
+        .topbar__rightBox {
+            order: 1;
+        }
+        
+            .topbar__rightBox__account{
+                text-align: center;
+            }
+        
+            .topbar__rightBox__cart{
+                text-align: center;
+            }
+       
+    }
+
+    @media only screen and (max-width: 300px) {
+        
+        body{
+            padding: 0;
+            margin:3%;
+        }
+
+        .topbar__wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .topbar__rightBox {
+            margin-top: 8%;
+            justify-content: center;
+        }
+    }
+        

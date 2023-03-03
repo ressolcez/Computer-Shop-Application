@@ -1,0 +1,96 @@
+.createOrderComponent__wrappper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.payment__data{
+    width: 50%;
+    margin-left: 10%;
+}
+    .cart__info__wrapper{
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    .cart__info__items__wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 1px solid rgb(201, 190, 190);
+    }
+
+    .cart__info__single__item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cart__info__product__name{
+        display: flex;
+        width: 50%;
+        padding:20px;
+        padding-bottom: 15px;
+        padding-right: 0;
+    }
+
+    .cart__info__product__price{
+        display: flex;
+        justify-content: flex-end;
+        padding:20px;
+        padding-left: 0;
+        padding-bottom: 15px;
+        width: 50%;
+    }
+
+    .total__info__cart{
+        display: flex;
+        justify-content: space-between;
+        padding:20px;
+        padding-bottom: 15px;
+    }
+
+
+    @media only screen and (max-width: 1200px) {
+        .payment__data{
+            margin-left: 5%;
+        }
+
+
+    .cart__info__wrapper{
+        margin-right: 5%;
+    }
+}
+
+      @media only screen and (max-width: 870px) {
+        .payment__data{
+            margin-left: 0;
+        }
+
+
+    .cart__info__wrapper{
+        margin-right: 0;
+        width: 40%;
+    }
+      }
+
+
+      @media only screen and (max-width: 500px) {
+
+        .createOrderComponent__wrappper{
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        .payment__data{
+            width: 100%;
+        }
+
+
+    .cart__info__wrapper{
+        margin-right: 0;
+        width: 100%;
+        order:-1;
+
+    }
+      }

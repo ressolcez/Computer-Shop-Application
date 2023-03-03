@@ -1,0 +1,28 @@
+.userRecentOrders__wrapper{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.UserRecentOrders__wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.userOrder__title{
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 950px) {
+    .userRecentOrders__wrapper{
+      margin-left: 1%;
+      margin-top: 1%;
+      margin-right: 1%;
+    }
+  
+  }

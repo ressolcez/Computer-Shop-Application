@@ -1,0 +1,38 @@
+.DiscountProducts__wrappper{
+    margin-top:2%;
+}
+
+.carousel__item{
+    display: flex;
+    flex-direction: column;
+    height: 285px;
+}
+
+.carousel__item__img__cont{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.carousel__item__img__cont img{
+    height:150px;
+    object-fit: scale-down;
+}
+
+.carousel__desc{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 11%;
+}
+
+.carousel__desc__price__btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel__desc__price{
+    font-weight: 800;
+    margin-left: 3px;
+}

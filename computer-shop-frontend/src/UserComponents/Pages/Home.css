@@ -1,0 +1,36 @@
+
+.home__wrapper{
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+
+.products-heading{
+  margin-top:2.5%;
+}
+
+.products-heading h2{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+
+@media only screen and (max-width: 950px) {
+  .home__wrapper{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+  }
+
+  .products-heading h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+}
+@media only screen and (max-width: 320px) {
+  .products-heading h2{
+    font-size: 20px;
+    margin-top:20px;
+  }
+}

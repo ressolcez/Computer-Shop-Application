@@ -1,0 +1,9 @@
+
+.profile__wrapper{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }

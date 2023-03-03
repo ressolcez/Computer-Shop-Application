@@ -1,0 +1,15 @@
+.correct__info {
+    display: none;
+}
+
+.incorret__info {
+    display:block;
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont__login{
+    height: 80vh;
+}

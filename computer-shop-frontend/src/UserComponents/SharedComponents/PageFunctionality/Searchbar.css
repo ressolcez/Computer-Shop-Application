@@ -1,0 +1,110 @@
+.topbar__search{
+    background: url("../../../Images/serach.png") no-repeat scroll 7px 7px;
+    padding-left:40px;
+    border: none;
+    outline:none;
+ }
+
+ .topbar__search:active{
+    outline:none;
+ }
+
+    .topbar__search{
+        width:80%;
+        border: 1px solid rgba(0, 0, 0, 0.34);
+        border-radius: 20px;
+        height: 35px;
+    }
+
+.data__result__wrapper{
+   margin-top: 5px;
+   width: 38%;
+   height: 200px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   overflow: hidden;
+   overflow-y: auto;
+   position: absolute;
+   z-index: 5;
+   margin-left:5%;
+   padding: 5px;
+}
+
+.styled__single__iteam__search{
+   width: 100%;
+   height: 130px;
+   display: flex;
+   flex-direction: row;
+}
+
+.item__image__search{
+   width: 110px;
+   height: 100%;
+
+}
+
+.item__description__search{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.name__serach{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   font-size: 14px;
+}
+
+.category__search{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   font-size: 14px;
+
+}
+
+.producent__search{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   font-size: 14px;
+
+}
+
+.price__search{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   font-size: 14px;
+}
+
+@media only screen and (max-width: 950px) {
+
+.data__result__wrapper{
+   width: 47%;
+   margin-left:6%;
+}
+   
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.topbar__search{
+      width:100%;
+  }
+
+  .data__result__wrapper{
+   width: 96%;
+   margin-left:1%;
+  }
+   
+}
+
+@media only screen and (max-width: 500px) {  
+   .data__result__wrapper{
+      width: 98%;
+      margin-left:0%;
+   }
+}
