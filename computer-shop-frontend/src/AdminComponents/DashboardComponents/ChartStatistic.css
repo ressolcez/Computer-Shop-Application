@@ -1,0 +1,10 @@
+.chart__statistic__wrapper{
+    width: 100%;
+    display: flex;
+    gap:80px;
+}
+
+.chart__BarSeries__wrapper{
+    margin-top: 50px;
+    width:'45%'
+}

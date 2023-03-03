@@ -1,0 +1,7 @@
+.admin__opinions__wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
