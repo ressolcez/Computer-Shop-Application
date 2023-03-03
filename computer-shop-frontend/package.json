@@ -1,0 +1,69 @@
+{
+  "name": "computer-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^3.0.6",
+    "@devexpress/dx-react-chart-material-ui": "^3.0.6",
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@mui/x-data-grid": "^5.17.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aphrodite": "^2.4.0",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.2",
+    "devextreme": "22.1.6",
+    "devextreme-react": "22.1.6",
+    "formik": "^2.2.9",
+    "framer-motion": "^7.6.5",
+    "gh-pages": "^4.0.0",
+    "mdb-react-ui-kit": "^4.2.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.38",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-image-gallery": "^1.2.11",
+    "react-moment": "^1.1.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.6",
+    "react-use-cart": "^1.13.0",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
