@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Email</title>
+  <style>
+        .default__text{
+            color:black;
+            font-size:19px;
+        }
+  </style>
+</head>
+<body>
+<div th:style="'width:60%;padding-left:20%'">
+  <p th:style="'font-size:25px;color:black;text-align:center;margin-bottom:0;padding-bottom:0;'">
+    Witaj <span th:text="${user.name}"></span>!
+  </p>
+
+  <p class="default__text">
+    Twoje zamówienie o numerze <b th:text="${order.id}"></b>, złożone w dniu <b th:text="${order.date}"></b> zostało <span th:style="'color:red;'">anulowane</span>
+  </p>
+
+  <div th:if="${!comment.isEmpty()}">
+    <p class="default__text"> Powód:</p>
+    <p class="default__text" th:text="${comment}"></p>
+  </div>
+
+  <p th:style="'color:black;'"> Możesz obejrzeć swoje zamówienie na naszej stronie
+    klikając historia zamówień, będąc zalogowanym na swoje konto klienta.
+  </p>
+  <p class="default__text">
+    <i>Jeżeli twoim zdaniem, zamówienie zostało anulowane bezpodstawnie zapraszamy do kontaktu poprzez formularz na naszej stronie</i>
+  </p>
+</div>
+</body>
+</html>
