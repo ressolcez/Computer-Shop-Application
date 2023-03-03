@@ -1,7 +1,7 @@
 # Computer-Shop
 
 The application offers the customer, a number of functionalities, thanks to which he can easily and intuitively find the item he is looking for and complete the order. An administrator panel has been made available to the seller, which contains important sales statistics and facilitates the process of managing the
-store. In addition, a mechanism supporting e-mail messages has been implemented, which facilitates communication between the customer and the seller.
+store. In addition, a mechanism supporting e-mail messages has been implemented, which facilitates communication between the customer and the seller. The website was created using RWD technology.
 
 ## The Technologies Used in this Project are:
 
