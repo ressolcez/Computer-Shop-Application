@@ -18,7 +18,7 @@ Projekt sklepu internetowego do sprzedaży akcesoriów komputerowych zrealizowan
 
 ### Sekcja zawierająca najlepiej oceniane produkty
 
-![image](https://user-images.githubusercontent.com/59510358/222802074-a74fe1dc-4b4b-4ff3-adbb-a7bca3ae0f82.png)
+![image](https://user-images.githubusercontent.com/59510358/222802255-b6299b37-556e-4dad-a31c-cbccfb39d3e8.png)
 
 ### Logowanie
 
