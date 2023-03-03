@@ -32,7 +32,7 @@ store. In addition, a mechanism supporting e-mail messages has been implemented,
 
 ![image](https://user-images.githubusercontent.com/59510358/222802255-b6299b37-556e-4dad-a31c-cbccfb39d3e8.png)
 
-### Login form
+### - Login form
 
 ![image](https://user-images.githubusercontent.com/59510358/222799635-bed2b5dc-6208-4b8f-81fe-47bcd5dcc7dd.png)
 
